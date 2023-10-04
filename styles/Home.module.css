@@ -1,0 +1,61 @@
+
+.container {
+  overflow: hidden;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.container .bob{
+  background-color: red;
+}
+
+.transparentelement {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 400px;
+  height: 70px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+.transparentelement1 {
+  width: 100vw;
+  height: 50vh;
+}
+.transparentelement1 a{
+  color: blue;
+}
+.transparentelement2 {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 400px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+}
+.transparentelement2 button{
+  background-color: blue;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+}
+.transparentelement3 {
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+}
+
+
